@@ -1,6 +1,6 @@
 Didact Gothic Greek
 
-Repo: -coming soon-
+Repo: https://github.com/irenevl/Didact-Greek
 Masters: 1
 Instances: -
 task: review and fix Greek Monotonic set and Extended Greek set
