@@ -8,6 +8,23 @@ task: review and fix Greek Monotonic set and Extended Greek set
 Review/Approach:
 Didact Gothic is a sans-serif font which according to the its original designer, each letter is designed in the form most often used in elementary classrooms. Following the same approach, I redesigned the Greek letterforms in a way that the hand gestures of writing Greek can be obvious through the letterforms. 
 
+Update 11 February 2017:
+
+added kerning on the Greek set
+minor outline changes
+
+06 January 2017:
+
+added extra glyphs to match “Basic Polytonic Set”:
+
+KaiSymbol
+perispomenicomb
+koroniscomb
+dialytikatonoscomb
+ypogegrammenicomb
+
+
+23 December 2016:
 
 Changes:
 
