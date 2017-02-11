@@ -1,0 +1,77 @@
+Didact Gothic Greek
+
+Repo: https://github.com/irenevl/Didact-Greek
+Masters: 1
+Instances: -
+task: review and fix Greek Monotonic set and Extended Greek set
+
+Review/Approach:
+Didact Gothic is a sans-serif font which according to the its original designer, each letter is designed in the form most often used in elementary classrooms. Following the same approach, I redesigned the Greek letterforms in a way that the hand gestures of writing Greek can be obvious through the letterforms. 
+
+
+
+06 January 2017:
+
+added extra glyphs to match “Basic Polytonic Set”:
+
+KaiSymbol
+perispomenicomb
+koroniscomb
+dialytikatonoscomb
+ypogegrammenicomb
+
+
+23 December 2016:
+
+Changes:
+
+1. Uppercase
+
+Replaced with composites from the Latin where possible:
+Alpha=A, Beta=B, Epsilon=E, Zeta=Z, Eta=H, Theta (round counter)=O, Iota=I, Kappa=K, Mu=M, Nu=N, Omicron=O, Rho=P, Tau=T, Upsilon=Y and Chi=X.
+
+I adapted the width and the style of the rest of the uppercase to match the other capitals.
+
+2. Lowercase
+
+The heaviest alteration was the addition of in strokes and out strokes in most of the letters, so the writing direction of the script can be obvious. In detail the ones that changed significantly are the followings:
+* gamma: I removed the loop of the bottom part. This loop is present in some cases in handwriting but never in the typographic form of the letter. To imitate the move of the pen, we make the left diagonal part a bit curvy so it can show the direction of the stroke.
+* eta: added an in stroke at the beginning of the letter. This also helps for understanding the greek writing method,
+* kappa: same as eta, added an in stroke on the top right diagonal
+* lambda: same as in iota, I added an in stroke to show the starting point of the letter and an out stroke, to show the exit of the pen.
+* mu: added an outstroke at the end of the vertical stroke, to make it closer to its handwritten form
+* nu: like in gamma, curved the right diagonal part
+* pi: like in mu, added an upstroke at the end of the second vertical stroke
+* tau: added an outstroke since tau always has a horizontal terminal at the bottom of his vertical stroke
+* upsilon: same as gamma
+* phi: replaced the lower case phi with a more geometric/typographic shape for the default phi, and redesigned the open phi, as an alternative 
+* psi: extended the middle stroke of psi, that should always be extended higher than the x-height, and depending of the ascender height it can extend up to there. And curved the right part for the stroke, like in upsilon
+
+Modifications of width, stroke weight and optical corrections to glyphs including:
+* alpha
+* beta
+* delta
+* epsilon
+*zeta
+*theta
+*iota
+*xi
+*rho
+*sigma
+*chi
+*omega
+*final sigma
+
+I rebuild the accents and breathings that are necessary for Polytonic text, and recompose the entire set. I added a second set of iota subscript that the original file was lacking. 
+
+Added the number symbols (2 glyphs), Greek question mark, anoteleia (Greek semicolon) and kai (Greek ampersand).
+
+
+Issues: I was looking at the latin kerning that I've used in many occasions for my Greek pairs, and I've discovered some inconsistencies. I'm attaching some screenshots of theses issues, i.e not symmetrical pairs and some clashing ones. I had to make my own Greek pairs but I believe it always looks better when similar shape character across scripts have the same spacing and kerningi.e ATA, AlphaTauAlpha, AcyrTcyrAcyr).
+
+Another issue that I came across was that Didacta had Latin classes that included some Greek characters. The way that I usually work is that I always keep classes separated across scripts. I might copy values from one to another but I find it more tidy to have them separate. So I removed any of the Greek characters from the Latin classes and create my own Greek ones, with the prefix "GRK".
+
+
+
+To do: update kerning(?) 
+complete extended set (archaic symbols and numerals)
